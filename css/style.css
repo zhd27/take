@@ -335,6 +335,8 @@ footer{
     color: #57697f;
 }
 
+
+
 .contents p{
     width: 70%;
     margin-top: 10px;
@@ -363,9 +365,8 @@ footer{
 border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 border: none;
-   
 }
-.contents button i{
+.contents i{
     font-size: 22.5px;
     background-color: #82ca9c;
     padding: 12px;
