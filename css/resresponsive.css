@@ -33,7 +33,7 @@
     .text_content{
         width: 100%;
     }
-    .contents button i {
+.contents i {
     font-size: 22.5px;
     background-color: #82ca9c;
     padding: 12px;
@@ -41,7 +41,7 @@
     border-bottom-right-radius: 5px;
     position: absolute;
     margin-left: -3px;
-    left: 251px;
+    left: 252px;
     cursor: pointer;
     top: 42px;
     color: brown;
@@ -252,6 +252,19 @@
     .footer_content {
     margin-top: 50px;
     }
+    .contents i {
+    font-size: 22.5px;
+    background-color: #82ca9c;
+    padding: 12px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    margin-left: -3px;
+    left: 281px;
+    cursor: pointer;
+    top: 54px;
+    color: brown;
+}
     
 }
 
@@ -358,7 +371,6 @@
     left: 282px;
     top: 48px
   
-}
-    
+}   
     
 }
