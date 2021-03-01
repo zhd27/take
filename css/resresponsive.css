@@ -31,12 +31,13 @@
         display: none;
     }
     .text_content{
-     width: 100%;
+        width: 100%;
     }
-  
+
     .img_position{
       display:none;
     }
+
 
     .text_content h1 {
     font-size: 44px;
@@ -233,11 +234,11 @@
     .footer_content h5 {
     font-size: 25px
     }
- 
     .footer_content {
     margin-top: 50px;
     }
-  
+
+    
 }
 
 
@@ -336,6 +337,7 @@
     .footer_content h5 {
     font-size: 20px
     }
+    
     
     
 }
