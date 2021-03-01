@@ -360,23 +360,36 @@ footer{
     margin-top: 80px;
 }
 
-.contents input {
-    padding: 6px;
-    font-size: 22px;
-border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-border: none;
+form{
+    display: inline-flex;
 }
-.contents i{
-    font-size: 22.5px;
-    background-color: #82ca9c;
-    padding: 12px;
- border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    position: absolute;
-    margin-left: -3px;
-    left: 282px;
-    cursor: pointer;
-    top:42px;
-    color: brown;
+.form-control{
+border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    border-right: none;
+    font-size: 22px;  
+    }
+
+.form-control:focus{
+box-shadow: none;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #82ca9c;
+    border-left: none;
+    border-radius: .25rem;
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+     background-color: #82ca9c;
+       font-size: 22px;
+    box-shadow: none;
+}
+
+.form-control::placeholder{
+    font-size: 16px;
+    padding-left: 10px;
+    
 }
