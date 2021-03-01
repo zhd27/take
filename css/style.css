@@ -5,7 +5,6 @@
 }
 body{
 font-family: 'Open Sans', sans-serif;
-    overflow-x: hidden;
 }
 h1,h2,h3,h4,h5,h6,p,ul,li,span{
     padding: 0;
@@ -393,3 +392,6 @@ box-shadow: none;
     padding-left: 10px;
     
 }
+
+
+
